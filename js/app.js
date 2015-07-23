@@ -66,6 +66,10 @@
         };
 
         $translatePartialLoaderProvider.addPart('common');
+        $translatePartialLoaderProvider.addPart('cv');
+        $translatePartialLoaderProvider.addPart('articles');
+        $translatePartialLoaderProvider.addPart('home');
+
 
         $translateProvider.useLoader('$translatePartialLoader', {
             urlTemplate: 'i18n/{part}/locale-{lang}.json'
