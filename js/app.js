@@ -69,6 +69,8 @@
         $translatePartialLoaderProvider.addPart('cv');
         $translatePartialLoaderProvider.addPart('articles');
         $translatePartialLoaderProvider.addPart('home');
+        $translatePartialLoaderProvider.addPart('projects');
+
 
 
         $translateProvider.useLoader('$translatePartialLoader', {
