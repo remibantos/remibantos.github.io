@@ -32,6 +32,14 @@
                     $translate.refresh();
                 }
             })
+            .state('articles', {
+                url: "/articles",
+                templateUrl: "partials/articles.html",
+                controller : function($translatePartialLoader, $translate){
+                    $translatePartialLoader.addPart('articles');
+                    $translate.refresh();
+                }
+            })
             .state('projects', {
                 url: "/projects",
                 templateUrl: "partials/projects.html",
