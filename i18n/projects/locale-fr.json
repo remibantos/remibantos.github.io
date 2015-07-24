@@ -1,3 +1,5 @@
 {
-  "projects.title" : "Projets open-source et contributions"
+  "projects.title" : "Projets open-source et contributions",
+  "projects.owned" : "Projets",
+  "projects.contributions" : "Contributions"
 }
