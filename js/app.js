@@ -24,14 +24,6 @@
                     $translate.refresh();
                 }
             })
-            .state('cv', {
-                url: "/cv",
-                templateUrl: "partials/cv.html",
-                controller : function($translatePartialLoader, $translate){
-                    $translatePartialLoader.addPart('cv');
-                    $translate.refresh();
-                }
-            })
             .state('articles', {
                 url: "/articles",
                 templateUrl: "partials/articles.html",
@@ -66,7 +58,6 @@
         };
 
         $translatePartialLoaderProvider.addPart('common');
-        $translatePartialLoaderProvider.addPart('cv');
         $translatePartialLoaderProvider.addPart('articles');
         $translatePartialLoaderProvider.addPart('home');
         $translatePartialLoaderProvider.addPart('projects');

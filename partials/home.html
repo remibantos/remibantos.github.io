@@ -1,7 +1,13 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h2>{{"welcome" | translate}}</h2>
+        <p ng-bind-html="'home.presentation' | translate">
+        </p>
+        <p>
+            <a class="btn btn-lg btn-primary" href="https://www.linkedin.com/pub/bantos-r%C3%A9mi/62/67/292" target="_blank" role="button">
+                {{'home.see.more' | translate}}
+            </a>
+        </p>
     </div>
 
 </div>

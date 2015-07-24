@@ -1,3 +1,5 @@
 {
-  "welcome" : "Bienvenue !"
+  "welcome" : "Bienvenue !",
+  "home.see.more" : "En savoir plus",
+  "home.presentation" : "Actuellement en poste chez Transatel, je me suis spécialisé au fil des années sur des activités de conception et développement back-office / front-office / Web Java EE.<br/>Vivement intéressé par l'open-source, je contribue activement à plusieurs projets sur des plate-formes telles que GitHub ou Bitbucket."
 }
