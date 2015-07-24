@@ -42,7 +42,9 @@
             });
     }]);
 
-    app.config( function ($translateProvider,$translatePartialLoaderProvider) {
+    app.config( function ($translateProvider,$translatePartialLoaderProvider,$locationProvider) {
+
+        $locationProvider.hashPrefix("!");
 
         // TODO pull request to angular-translate
         var getLocale = function () {
